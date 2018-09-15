@@ -20,11 +20,24 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+      <script type="text/javascript" src="App.js"></script>
+      <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.2.0/css/ol.css"
+          type="text/css">
+      <style>
+          .map {
+          height: 50%;
+          width: 100%;
+        }
+      </style>
+      <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.2.0/build/ol.js"></script>
+    <title>HTN example</title>
   </head>
   <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
+      <h2>Moment</h2>
+      <div id="map" class="map"></div>
+      <script type="text/javascript" src="index.js">  </script>
+  </body>
+
     <div id="root"></div>
     <!--
       This HTML file is a template.
